@@ -1,0 +1,31 @@
+{
+  "name": "cypress-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server . -p 3000",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManoelSerafim/cypress-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ManoelSerafim/cypress-test/issues"
+  },
+  "homepage": "https://github.com/ManoelSerafim/cypress-test#readme",
+  "devDependencies": {
+    "cypress": "^16.1.0",
+    "http-server": "^14.1.1"
+  },
+  "allowScripts": {
+    "cypress": true
+  }
+}
